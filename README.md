@@ -13,6 +13,12 @@ O jogador possui 1 minuto para decifrar qual é a senha correta que irá desarma
 
 ### Como funciona? 🔎
 
+O jogador possui um minuto para decifrar qual é a senha de desarme. Esta contagem é feita por um módulo **Cronômetro**, em que dois contadores assíncronos realizam a contagem de 60 segundos. Para mostrar o estado atual do contador nos Displays de 7 Segmentos, há um **Decodificador**, que recebe a saída do contador e converte no valor hexadecimal para ser passado para os displays. 
+
+Para verificar se a senha inserida foi a correta, há um módulo **Verificador**, contendo dois registradores de deslocamento, que irão armazenar a letra inserida pelo usuário. Ao inserir as 4 letras, a palavra formada será comparada com a senha. Caso seja a senha correta, o **Verificador** manda um sinal para pausar a contagem e ligá-se os LEDs verde, indicando que o usuário foi capaz de desarmar a bomba. Caso contrário, o cronômetro continua, até que seja inserida a senha correta. 
+
+Veja [aqui](https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-videos/placa-em-funcionamento.mp4) o jogo em funcionamento! 
+
 ### Diagrama lógico
 
 ## Tecnologias utilizadas  🖥️
@@ -27,6 +33,10 @@ O jogador possui 1 minuto para decifrar qual é a senha correta que irá desarma
 
 ## Trabalho futuro
 
+Há algumas melhorias que podem ser feitas para deixar o jogo mais imersivo: 
+- Criar uma lógica para advinhar qual é a senha correta
+- Fazer com que os LEDs vermelhos pisquem quando o tempo acabar, indicando que a bomba explodiu
+- Adicionar um botão para reset assíncrono
 
 
 
