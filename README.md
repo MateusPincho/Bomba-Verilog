@@ -29,7 +29,7 @@ Veja [aqui](https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-vide
 <img src="https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-videos/desligada.jpeg?raw=true" height="300" align="center">
 </p>
 
-## Como executar 👨‍💻
+
 
 ## Trabalho futuro
 
