@@ -21,6 +21,10 @@ Veja [aqui](https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-vide
 
 ### Diagrama lógico
 
+<p align="center">
+<img src="https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-videos/DiagramaL%C3%B3gico.jpeg" height="600" align="center">
+</p>
+
 ## Tecnologias utilizadas  🖥️
 - Placa Altera DE2
 - Linguagem de Descrisção de Hardware Verilog
@@ -28,8 +32,6 @@ Veja [aqui](https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-vide
 <p align="center">
 <img src="https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-videos/desligada.jpeg?raw=true" height="300" align="center">
 </p>
-
-## Como executar 👨‍💻
 
 ## Trabalho futuro
 
