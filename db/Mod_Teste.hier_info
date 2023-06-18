@@ -1,0 +1,438 @@
+|Mod_Teste
+CLOCK_27 => ~NO_FANOUT~
+CLOCK_50 => CLOCK_50.IN2
+KEY[0] => KEY[0].IN2
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+SW[10] => ~NO_FANOUT~
+SW[11] => ~NO_FANOUT~
+SW[12] => ~NO_FANOUT~
+SW[13] => ~NO_FANOUT~
+SW[14] => ~NO_FANOUT~
+SW[15] => ~NO_FANOUT~
+SW[16] => ~NO_FANOUT~
+SW[17] => ~NO_FANOUT~
+HEX0[0] <= <VCC>
+HEX0[1] <= <VCC>
+HEX0[2] <= <VCC>
+HEX0[3] <= <VCC>
+HEX0[4] <= <VCC>
+HEX0[5] <= <VCC>
+HEX0[6] <= <VCC>
+HEX1[0] <= <VCC>
+HEX1[1] <= <VCC>
+HEX1[2] <= <VCC>
+HEX1[3] <= <VCC>
+HEX1[4] <= <VCC>
+HEX1[5] <= <VCC>
+HEX1[6] <= <VCC>
+HEX2[0] <= <VCC>
+HEX2[1] <= <VCC>
+HEX2[2] <= <VCC>
+HEX2[3] <= <VCC>
+HEX2[4] <= <VCC>
+HEX2[5] <= <VCC>
+HEX2[6] <= <VCC>
+HEX3[0] <= <VCC>
+HEX3[1] <= <VCC>
+HEX3[2] <= <VCC>
+HEX3[3] <= <VCC>
+HEX3[4] <= <VCC>
+HEX3[5] <= <VCC>
+HEX3[6] <= <VCC>
+HEX4[0] <= SEG7_LUT:comb_50.port0
+HEX4[1] <= SEG7_LUT:comb_50.port0
+HEX4[2] <= SEG7_LUT:comb_50.port0
+HEX4[3] <= SEG7_LUT:comb_50.port0
+HEX4[4] <= SEG7_LUT:comb_50.port0
+HEX4[5] <= SEG7_LUT:comb_50.port0
+HEX4[6] <= SEG7_LUT:comb_50.port0
+HEX5[0] <= SEG7_LUT:comb_49.port0
+HEX5[1] <= SEG7_LUT:comb_49.port0
+HEX5[2] <= SEG7_LUT:comb_49.port0
+HEX5[3] <= SEG7_LUT:comb_49.port0
+HEX5[4] <= SEG7_LUT:comb_49.port0
+HEX5[5] <= SEG7_LUT:comb_49.port0
+HEX5[6] <= SEG7_LUT:comb_49.port0
+HEX6[0] <= SEG7_LUT:comb_48.port0
+HEX6[1] <= SEG7_LUT:comb_48.port0
+HEX6[2] <= SEG7_LUT:comb_48.port0
+HEX6[3] <= SEG7_LUT:comb_48.port0
+HEX6[4] <= SEG7_LUT:comb_48.port0
+HEX6[5] <= SEG7_LUT:comb_48.port0
+HEX6[6] <= SEG7_LUT:comb_48.port0
+HEX7[0] <= SEG7_LUT:comb_47.port0
+HEX7[1] <= SEG7_LUT:comb_47.port0
+HEX7[2] <= SEG7_LUT:comb_47.port0
+HEX7[3] <= SEG7_LUT:comb_47.port0
+HEX7[4] <= SEG7_LUT:comb_47.port0
+HEX7[5] <= SEG7_LUT:comb_47.port0
+HEX7[6] <= SEG7_LUT:comb_47.port0
+LEDG[0] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[2] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[3] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[4] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[5] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[6] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[7] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[8] <= <GND>
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= <GND>
+LEDR[3] <= <GND>
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= <GND>
+LEDR[10] <= reg_des_d_4:R0.port0
+LEDR[11] <= reg_des_d_4:R1.port0
+LEDR[12] <= reg_des_d_4:R0.port0
+LEDR[13] <= reg_des_d_4:R1.port0
+LEDR[14] <= reg_des_d_4:R0.port0
+LEDR[15] <= reg_des_d_4:R1.port0
+LEDR[16] <= reg_des_d_4:R0.port0
+LEDR[17] <= reg_des_d_4:R1.port0
+
+
+|Mod_Teste|divisor_de_freq:comb_3
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => clk_out~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+
+
+|Mod_Teste|reg_des_d_4:R0
+Sp[0] <= ff_jk:FF0.port0
+Sp[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+Sp[2] <= q[2].DB_MAX_OUTPUT_PORT_TYPE
+Sp[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+Ss <= ff_jk:FF0.port0
+Es => Es.IN1
+C => C.IN4
+Q[0] => Q[0].IN1
+Q[1] => Q[1].IN1
+Q[2] => Q[2].IN1
+Q[3] => Q[3].IN1
+clk => clk.IN4
+clr => clr.IN4
+
+
+|Mod_Teste|reg_des_d_4:R0|mux_2_1:M3
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R0|mux_2_1:M2
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R0|mux_2_1:M1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R0|mux_2_1:M0
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R0|ff_jk:FF3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|reg_des_d_4:R0|ff_jk:FF2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|reg_des_d_4:R0|ff_jk:FF1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|reg_des_d_4:R0|ff_jk:FF0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|reg_des_d_4:R1
+Sp[0] <= ff_jk:FF0.port0
+Sp[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+Sp[2] <= q[2].DB_MAX_OUTPUT_PORT_TYPE
+Sp[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+Ss <= ff_jk:FF0.port0
+Es => Es.IN1
+C => C.IN4
+Q[0] => Q[0].IN1
+Q[1] => Q[1].IN1
+Q[2] => Q[2].IN1
+Q[3] => Q[3].IN1
+clk => clk.IN4
+clr => clr.IN4
+
+
+|Mod_Teste|reg_des_d_4:R1|mux_2_1:M3
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R1|mux_2_1:M2
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R1|mux_2_1:M1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R1|mux_2_1:M0
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+D0 => Y.DATAA
+D1 => Y.DATAB
+Se => Y.OUTPUTSELECT
+
+
+|Mod_Teste|reg_des_d_4:R1|ff_jk:FF3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|reg_des_d_4:R1|ff_jk:FF2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|reg_des_d_4:R1|ff_jk:FF1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|reg_des_d_4:R1|ff_jk:FF0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+j => Mux0.IN2
+k => Mux0.IN3
+clk => q~reg0.CLK
+clr => q.IN0
+clr => q~reg0.ACLR
+pr => q.IN1
+
+
+|Mod_Teste|cronometro:CR
+Ds[0] <= contador_decres_comport_mod6:CU.port0
+Ds[1] <= contador_decres_comport_mod6:CU.port0
+Ds[2] <= contador_decres_comport_mod6:CU.port0
+Ds[3] <= contador_decres_comport_mod6:CU.port0
+Us[0] <= contador_decres_comport_mod10:CD.port0
+Us[1] <= contador_decres_comport_mod10:CD.port0
+Us[2] <= contador_decres_comport_mod10:CD.port0
+Us[3] <= Us[3].DB_MAX_OUTPUT_PORT_TYPE
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+enable => comb.IN1
+clk => clk.IN1
+
+
+|Mod_Teste|cronometro:CR|divisor_de_freq:comb_3
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => clk_out~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+
+
+|Mod_Teste|cronometro:CR|contador_decres_comport_mod10:CD
+counter[0] <= counter[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= counter[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= counter[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[3] <= counter[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => counter[0]~reg0.CLK
+clk => counter[1]~reg0.CLK
+clk => counter[2]~reg0.CLK
+clk => counter[3]~reg0.CLK
+
+
+|Mod_Teste|cronometro:CR|contador_decres_comport_mod6:CU
+counter[0] <= counter[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= counter[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= counter[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+counter[3] <= counter[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => counter[0]~reg0.CLK
+clk => counter[1]~reg0.CLK
+clk => counter[2]~reg0.CLK
+clk => counter[3]~reg0.CLK
+
+
+|Mod_Teste|SEG7_LUT:comb_47
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|Mod_Teste|SEG7_LUT:comb_48
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|Mod_Teste|SEG7_LUT:comb_49
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+
+|Mod_Teste|SEG7_LUT:comb_50
+oSEG[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oSEG[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+
+

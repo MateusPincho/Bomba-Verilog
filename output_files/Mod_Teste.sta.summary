@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -2.836
+TNS   : -46.743
+
+Type  : Slow Model Setup 'cronometro:CR|divisor_de_freq:comb_3|clk_out'
+Slack : -2.711
+TNS   : -10.365
+
+Type  : Slow Model Setup 'cronometro:CR|contador_decres_comport_mod10:CD|counter[3]'
+Slack : -0.089
+TNS   : -0.388
+
+Type  : Slow Model Setup 'KEY[0]'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Slow Model Hold 'cronometro:CR|contador_decres_comport_mod10:CD|counter[3]'
+Slack : -4.494
+TNS   : -10.213
+
+Type  : Slow Model Hold 'cronometro:CR|divisor_de_freq:comb_3|clk_out'
+Slack : -2.821
+TNS   : -7.559
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.541
+TNS   : -2.541
+
+Type  : Slow Model Hold 'KEY[0]'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -28.380
+
+Type  : Slow Model Minimum Pulse Width 'KEY[0]'
+Slack : -1.222
+TNS   : -9.222
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:CR|contador_decres_comport_mod10:CD|counter[3]'
+Slack : -0.500
+TNS   : -7.000
+
+Type  : Slow Model Minimum Pulse Width 'cronometro:CR|divisor_de_freq:comb_3|clk_out'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Setup 'cronometro:CR|divisor_de_freq:comb_3|clk_out'
+Slack : -1.058
+TNS   : -4.061
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.838
+TNS   : -9.539
+
+Type  : Fast Model Setup 'cronometro:CR|contador_decres_comport_mod10:CD|counter[3]'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Fast Model Setup 'KEY[0]'
+Slack : 0.629
+TNS   : 0.000
+
+Type  : Fast Model Hold 'cronometro:CR|contador_decres_comport_mod10:CD|counter[3]'
+Slack : -2.510
+TNS   : -5.359
+
+Type  : Fast Model Hold 'cronometro:CR|divisor_de_freq:comb_3|clk_out'
+Slack : -1.624
+TNS   : -4.533
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.585
+TNS   : -1.585
+
+Type  : Fast Model Hold 'KEY[0]'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -28.380
+
+Type  : Fast Model Minimum Pulse Width 'KEY[0]'
+Slack : -1.222
+TNS   : -9.222
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:CR|contador_decres_comport_mod10:CD|counter[3]'
+Slack : -0.500
+TNS   : -7.000
+
+Type  : Fast Model Minimum Pulse Width 'cronometro:CR|divisor_de_freq:comb_3|clk_out'
+Slack : -0.500
+TNS   : -4.000
+
+------------------------------------------------------------

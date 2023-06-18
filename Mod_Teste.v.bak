@@ -1,0 +1,59 @@
+// --------------------------------------------------------------------
+// Módulo de entradas e saídas para a placa ALTERA DE2
+// Esta primeira parte será utilizada em todos os experimentos realizados
+// --------------------------------------------------------------------
+module Mod_Teste (
+//////////////////// Fonte de Clock ////////////////////
+CLOCK_27, // 27 MHz
+CLOCK_50, // 50 MHz
+//////////////////// Push Button ////////////////////
+KEY, // Pushbutton(botoes)[3:0]
+//////////////////// Chaves DPDT ////////////////////
+SW, // Toggle Switches(chaves)[17:0]
+//////////////////// Display de 7-SEG ////////////////////
+HEX0, // Display 0
+HEX1, // Display 1
+HEX2, // Display 2
+HEX3, // Display 3
+HEX4, // Display 4
+HEX5, // Display 5
+HEX6, // Display 6
+HEX7, // Display 7
+//////////////////// LEDS ////////////////////////
+LEDG, // LED Green(verde)[8:0]
+LEDR // LED Red(vermelho)[17:0]
+);
+input CLOCK_27;
+input CLOCK_50;
+input [3:0] KEY;
+input [17:0] SW;
+output [6:0] HEX0;
+output [6:0] HEX1;
+output [6:0] HEX2;
+output [6:0] HEX3;
+output [6:0] HEX4;
+output [6:0] HEX5;
+output [6:0] HEX6;
+output [6:0] HEX7;
+output [8:0] LEDG;
+output [17:0] LEDR;
+// --------------------------------------------------------------------------
+// Trecho para instanciação de módulos e interligação entre os mesmos
+// Esta parte será modificada para cada um dos experimentos realizados
+// --------------------------------------------------------------------------
+// Liga todos os segmentos dos Displays de 7-segmentos
+assign HEX0 = 7'h00;
+assign HEX1 = 7'h00;
+assign HEX2 = 7'h00;
+assign HEX3 = 7'h00;
+assign HEX4 = 7'h00;
+assign HEX5 = 7'h00;
+assign HEX6 = 7'h00;
+assign HEX7 = 7'h00;
+// Ativa todos os leds verdes e vermelhos
+assign LEDG = 9'h1FF;
+assign LEDR = 18'h3FFFF;
+// ---------------------------------------------------------------------------
+// Fim do trecho para instanciação de módulos e interligação entre os mesmos
+// ---------------------------------------------------------------------------
+endmodule // fim do modulo
