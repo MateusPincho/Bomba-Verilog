@@ -1,7 +1,7 @@
 # Jogo Digital - Desarmando Bombas 💣
 Jogo digital na linguagem de descrição de hardware Verilog em que o objetivo é desativar uma bomba relógio inserindo corretamente a senha de desarme
 <p align="center">
-<img src="blob:https://web.whatsapp.com/ac7be1b8-be8f-42ce-bbbe-642bb241be9a" height="200" align="center">
+<img src="https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-videos/ligada.jpeg?raw=true" height="400" align="center">
 </p>
 
 ## Sobre o Projeto 📖
@@ -18,7 +18,10 @@ O jogador possui 1 minuto para decifrar qual é a senha correta que irá desarma
 ## Tecnologias utilizadas  🖥️
 - Placa Altera DE2
 - Linguagem de Descrisção de Hardware Verilog
-- Ambiente de Desenvolvimento Quartus II 
+- Ambiente de Desenvolvimento Quartus II
+<p align="center">
+<img src="https://github.com/MateusPincho/Bomba-Verilog/blob/main/fotos-e-videos/desligada.jpeg?raw=true" height="300" align="center">
+</p>
 
 ## Como executar 👨‍💻
 
